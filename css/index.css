@@ -1,0 +1,21 @@
+.box
+{
+    position: relative;
+}
+
+.box div.text
+{
+    position: absolute;
+    width: 100%;
+    left: 0; 
+    top: calc(50% - 25px); 
+    text-align: center; 
+    font-weight: bold; 
+    font-size: 50px;
+    line-height: 50px;
+}
+
+img{
+    width: 1300px;
+    height: 800px;
+}
