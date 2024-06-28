@@ -55,3 +55,6 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
+body{
+    font-family: 'Yu Mincho', 'Hiragino Mincho ProN', 'serif';
+}
