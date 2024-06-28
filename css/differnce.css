@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Yu Mincho', 'Hiragino Mincho ProN', 'serif';
+    line-height: 1.6;
+    background-color: #faf3e0;
+    color: #333;
+    padding: 20px;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    padding: 20px;
+    border-bottom: 3px solid #d96c75;
+    background: #fff5f0;
+}
+
+#header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #d96c75;
+}
+
+#header p {
+    font-size: 1.2em;
+    color: #a64c59;
+}
+
+h2 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    color: #6c4f3d;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #8a7b52;
+}
+
+h4 {
+    font-size: 1.3em;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #8f5f50;
+    border-bottom: 2px solid #b29070;
+    padding-bottom: 5px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+
+ul, ol {
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+   
+}
+
+#jamp {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #fff5f0;
+    border-top: 3px solid #d96c75;
+}
+
+#jamp a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #d96c75;
+    font-weight: bold;
+}
+
+#jamp a:hover {
+    text-decoration: underline;
+}
+
+/* コンテンツの間に少しの余白を追加 */
+div > div {
+    margin-bottom: 30px;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e0c8b2;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* 一部の強調テキストのスタイル */
+strong {
+    color: #a64c59;
+}
+
+.uniform-img {
+    width: 300px;   /* 画像の幅を設定 */
+    height: 200px;  /* 画像の高さを設定 */
+    object-fit: cover; /* 画像のアスペクト比を維持しつつ、コンテナにフィットさせる */
+    border: 2px solid #d96c75;
+}
+
+#back-to-home {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: block; /* 初期状態では表示 */
+    z-index: 1000; /* 他のコンテンツの上に表示するため */
+}
+
+#back-to-home img {
+    width: 100px; /* 画像のサイズを調整 */
+    height: auto;
+}
