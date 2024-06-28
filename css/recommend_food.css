@@ -33,6 +33,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
+    color: #4f90f2;
 }
 
 h3.a{
@@ -41,4 +42,30 @@ h3.a{
     border-top: solid 3px #e19d28;
     padding-top: 3px;
     padding-bottom: 3px;
+}
+
+.mokuji{
+    border:solid #ffbd4c;
+    padding-left: 20px;
+    margin-right: 600px;
+}
+
+.mokuji ul {
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.mokuji li {
+    margin-left: 30px; 
+}
+
+.mokuji a {
+    color: #292929;
+    text-decoration: none;
+}
+
+.mokuji a:hover {
+    text-decoration: underline;
+    color: #4f90f2;
 }
